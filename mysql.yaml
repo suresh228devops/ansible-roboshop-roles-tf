@@ -1,0 +1,10 @@
+- name: configure "{{ component }}"
+  become: yes
+  hosts: "{{ component }}"
+  # vars_files:
+  # - vault/mysql.yaml
+  roles:
+  - "{{ component }}"
+
+# ansible-playbook -i inventory.ini -e "component=catalogue" main.yaml
+#ansible-playbook -i inventory.ini mysql.yaml -e "component=mysql"
