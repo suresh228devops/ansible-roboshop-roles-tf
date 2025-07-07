@@ -1,2 +1,2 @@
-REDIS_HOST: redis.ksrdaws84s.site
-MONGODB_HOST: mongodb.ksrdaws84s.site
+REDIS_HOST: redis-{{ env }}.ksrdaws84s.site
+MONGODB_HOST: mongodb-{{ env }}.ksrdaws84s.site
