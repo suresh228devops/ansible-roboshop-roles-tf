@@ -1,5 +1,5 @@
-CATALOGUE_HOST: catalogue.ksrdaws84s.site
-USER_HOST: user.ksrdaws84s.site
-CART_HOST: cart.ksrdaws84s.site
-SHIPPING_HOST: shipping.ksrdaws84s.site
-PAYMENT_HOST: payment.ksrdaws84s.site
+CATALOGUE_HOST: catalogue.backend-{{ env }}.ksrdaws84s.site
+USER_HOST: user.backend-{{ env }}.ksrdaws84s.site
+CART_HOST: cart.backend-{{ env }}.ksrdaws84s.site
+SHIPPING_HOST: shipping.backend-{{ env }}.ksrdaws84s.site
+PAYMENT_HOST: payment.backend-{{ env }}.ksrdaws84s.site
